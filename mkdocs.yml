@@ -1,0 +1,44 @@
+site_name: AsurOS Documentation
+site_url: https://github.com/prxcode/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: navy
+      accent: neon blue 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: navy
+      accent: neon blue 
+
+plugins:
+  - search  # Removed 'social' plugin
+
+extra:  # You can also remove the 'social' section if you don't need it
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/prxcode
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/prxcode
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/priyanshusingh10/
+
+copyright: |
+  &copy; 2025 <a href="github.com/prxcode" target="_blank" rel="noopener">AsurOS</a> 
