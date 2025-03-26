@@ -1,4 +1,4 @@
-name: CI
+name: Deploy MkDocs site to GitHub Pages
 
 on:
   push:
